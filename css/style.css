@@ -194,6 +194,14 @@ p {
   height: 350px;
   position: relative;
   overflow: hidden;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+}
+
+.works_item:hover .works_content {
+  opacity: 1;
+
+  transition: opacity 0.2s linear;
 }
 
 .works_img {
