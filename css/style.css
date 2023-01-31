@@ -28,8 +28,6 @@ p {
   margin: 0 0 10px 0;
 }
 
-/* font-family: 'Cardo', serif; */
-
 /* container ==========================================*/
 .container {
   width: 100%;
@@ -318,4 +316,56 @@ p {
 .social_item:hover {
   background-color: rgb(128, 122, 122);
   color: black;
+}
+
+/* reviews========================================*/
+.reviews {
+  overflow: hidden;
+  background-color: #53354a;
+}
+
+.reviews_item {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.reviews_img {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  z-index: 1;
+
+  transform: translateY(-50%);
+}
+
+.reviews_photo {
+  width: 50%;
+  height: 500px;
+  position: relative;
+}
+
+.reviews_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  padding-left: 80px;
+  width: 50%;
+}
+
+.reviews_text {
+  margin-bottom: 25px;
+
+  font-family: 'Cardo', serif;
+  font-size: 36px;
+  font-style: italic;
+  line-height: 1.2;
+  color: white;
+}
+
+.reviews_author {
+  color: white;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
