@@ -416,11 +416,12 @@ p {
 
 /* footer========================================*/
 .footer {
-  padding: 70px 0;
   background-color: #3a3e64;
 }
 
 .footer_inner {
+  padding: 70px 0;
+
   display: flex;
   flex-wrap: wrap;
 }
@@ -453,4 +454,26 @@ p {
   color: white;
   line-height: 1.5;
   opacity: 0.5;
+}
+
+/* copyright========================================*/
+.copyright {
+  padding: 20px 0;
+  background-color: #313454;
+}
+
+.copyright_text {
+  font-size: 14px;
+  color: gray;
+  line-height: 1.5;
+
+  text-align: center;
+}
+
+.copyright_text span {
+  color: white;
+}
+
+.fa-solid {
+  color: red;
 }
