@@ -129,6 +129,7 @@ p {
   border: 0;
   cursor: pointer;
 
+  text-align: center;
   font-family: 'Raleway';
   font-size: 13px;
   color: white;
@@ -146,6 +147,10 @@ p {
 
 .btn--red:hover {
   background-color: rgb(151, 20, 20);
+}
+
+.btn--long {
+  min-width: 280px;
 }
 
 /* features ========================================*/
@@ -366,6 +371,29 @@ p {
 .reviews_author {
   color: white;
   font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* download========================================*/
+.download {
+  margin: 100px 0;
+  text-align: center;
+}
+
+.download_title {
+  margin-bottom: 10px;
+
+  font-size: 28px;
+  color: black;
+  font-weight: 300;
+}
+
+.download_text {
+  margin-bottom: 30px;
+
+  font-size: 13px;
+  color: black;
   font-weight: 700;
   text-transform: uppercase;
 }
