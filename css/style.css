@@ -323,6 +323,22 @@ p {
   color: black;
 }
 
+.social--footer {
+  justify-content: center;
+}
+
+.social--footer .social_item {
+  color: white;
+  background: none;
+
+  transition: color, border 0.2s linear;
+}
+
+.social--footer .social_item:hover {
+  color: red;
+  border: 2px solid red;
+}
+
 /* reviews========================================*/
 .reviews {
   overflow: hidden;
@@ -396,4 +412,45 @@ p {
   color: black;
   font-weight: 700;
   text-transform: uppercase;
+}
+
+/* footer========================================*/
+.footer {
+  padding: 70px 0;
+  background-color: #3a3e64;
+}
+
+.footer_inner {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer_item {
+  width: 33.33333%;
+  padding: 0 15px;
+  text-align: center;
+}
+
+.footer_title {
+  margin-bottom: 20px;
+
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+}
+
+.footer_address {
+  font-style: normal;
+  font-size: 14px;
+  color: white;
+  line-height: 1.5;
+  opacity: 0.5;
+}
+
+.footer_text {
+  font-size: 14px;
+  color: white;
+  line-height: 1.5;
+  opacity: 0.5;
 }
