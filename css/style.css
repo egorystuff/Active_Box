@@ -52,6 +52,7 @@ p {
   position: fixed;
 
   background: url('..//images/intro_bg.jpg') center no-repeat;
+  background-color: #2a2e48;
 }
 
 .header.fixed .header_inner {
@@ -557,6 +558,24 @@ p {
   /* header*/
   .nav {
     display: none;
+    width: 100%;
+    flex-direction: column;
+
+    background: url('..//images/intro_bg.jpg') center no-repeat;
+    background-color: #2a2e48;
+    text-align: right;
+
+    position: absolute;
+    top: 100%;
+    right: 0;
+  }
+
+  .nav.show {
+    display: flex;
+  }
+
+  .nav_link {
+    padding: 10px 15px;
   }
 
   .burger {
