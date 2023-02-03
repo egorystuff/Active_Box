@@ -11,6 +11,11 @@
       href="https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Open+Sans:wght@700&family=Raleway:wght@300;400;600;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
     <link rel="stylesheet" href="css/style.css" />
 
     <script
@@ -321,17 +326,46 @@
     <!-- new block -->
     <div class="reviews" id="reviews">
       <div class="container">
-        <div class="reviews_item">
-          <div class="reviews_photo">
-            <img class="reviews_img" src="images/reviews/review_1.jpg" alt="" />
-          </div>
-          <div class="reviews_content">
-            <div class="reviews_text">
-              “Integer posuere erat a ante venenatis dapibus posuere velit
-              aliquet. Donec sed odio dui. Aenean eu leo quam...”
+        <div class="reviews_slider" id="reviewsSlider">
+          <div class="slick_item">
+            <div class="reviews_item">
+              <div class="reviews_photo">
+                <img
+                  class="reviews_img"
+                  src="images/reviews/review_1.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="reviews_content">
+                <div class="reviews_text">
+                  “Integer posuere erat a ante venenatis dapibus posuere velit
+                  aliquet. Donec sed odio dui. Aenean eu leo quam...”
+                </div>
+                <div class="reviews_author">
+                  Susan Sims, Interaction Designer at XYZ
+                </div>
+              </div>
             </div>
-            <div class="reviews_author">
-              Susan Sims, Interaction Designer at XYZ
+          </div>
+
+          <div class="slick_item">
+            <div class="reviews_item">
+              <div class="reviews_photo">
+                <img
+                  class="reviews_img"
+                  src="images/reviews/review_2.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="reviews_content">
+                <div class="reviews_text">
+                  Fusce dapibus, tellus ac cursus commodo, tortor mauris
+                  condimentum nibh, ut fermentum massa justo sit amet risus.
+                  Maecenas sed diam eget risus varius blandit sit amet non
+                  magna. Nullam quis risus eget urna mollis ornare vel eu leo.
+                </div>
+                <div class="reviews_author">Yahorka</div>
+              </div>
             </div>
           </div>
         </div>
@@ -406,6 +440,12 @@
     </footer>
 
     <!-- javascript -->
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+
     <script src="js/app.js"></script>
   </body>
 </html>
