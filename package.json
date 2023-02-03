@@ -1,0 +1,23 @@
+{
+  "name": "active_box",
+  "version": "1.0.0",
+  "description": "I am starting my new learning project. I want to improve my skills and build a new website.",
+  "main": "index.js",
+  "homepage": "https://github.com/egorystuff/Active_Box",
+  "scripts": {
+    "deploy": "gh-pages -d src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/egorystuff/Active_Box.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/egorystuff/Active_Box/issues"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
